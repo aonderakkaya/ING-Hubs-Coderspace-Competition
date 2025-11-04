@@ -1,0 +1,11 @@
+# Ignore all CSV data files
+*.csv
+
+# Ignore any zip files
+*.zip
+
+# Python cache
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
