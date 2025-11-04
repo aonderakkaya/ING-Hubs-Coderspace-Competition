@@ -1,6 +1,6 @@
-# ING Hubs Türkiye Datathon 2024: Customer Churn Prediction
+# ING Hubs Türkiye Datathon 2025: Customer Churn Prediction
 
-This repository contains the end-to-end machine learning model I developed for the 2024 Datathon, organized by ING Hubs Türkiye. This marks my **first-ever Kaggle competition** and my **first AI project built from scratch**.
+This repository contains the end-to-end machine learning model I developed for the 2025 Datathon, organized by ING Hubs Türkiye. This marks my **first-ever Kaggle competition** and my **first AI project built from scratch**.
 
 ## 🚀 About the Datathon
 
