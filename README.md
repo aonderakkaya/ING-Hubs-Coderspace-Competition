@@ -6,6 +6,8 @@ This repository contains the end-to-end machine learning model I developed for t
 
 This first Datathon, organized by ING Hubs Türkiye (founded in 2024), aimed to bring together AI enthusiasts and engineers to create data-driven solutions for real-world banking problems.
 
+More details and the data given can be obtained from: https://www.kaggle.com/competitions/ing-hubs-turkiye-datathon/overview
+
 ### 🎯 Objective of the Competition
 
 The primary goal of the competition was to develop a classification model to predict the **probability of customer churn** within the six-month period following a given reference date.
