@@ -6,7 +6,7 @@ This repository contains the end-to-end machine learning model I developed for t
 
 This first Datathon, organized by ING Hubs Türkiye (founded in 2024), aimed to bring together AI enthusiasts and engineers to create data-driven solutions for real-world banking problems.
 
-More details and the data given can be obtained from: https://www.kaggle.com/competitions/ing-hubs-turkiye-datathon/overview
+More details and the data given can be obtained from: [Kaggle competition overview](https://www.kaggle.com/competitions/ing-hubs-turkiye-datathon/overview)
 
 ### 🎯 Objective of the Competition
 
@@ -30,8 +30,8 @@ The most critical part of this project was deriving temporal features from custo
 * **Data Leakage Prevention:** When joining the customer history (`customer_history`), a **`pl.col("date") < pl.col("ref_date")`** filter was applied to ensure temporal integrity and prevent the model from seeing future information.
 * **Historical Aggregations:** Statistical features such as `mean`, `sum`, `max`, and `count` were generated for critical variables like `mobile_eft_all_cnt` and `cc_transaction_all_amt`.
 * **Recency Features:**
-    * A `days_since_last_transaction` feature was created by calculating the difference in days between the reference date and the customer's last transaction.
-    * `_last_month` features (e.g., `cc_transaction_all_amt_last_month`) were derived to capture the customer's most recent behavior.
+  * A `days_since_last_transaction` feature was created by calculating the difference in days between the reference date and the customer's last transaction.
+  * `_last_month` features (e.g., `cc_transaction_all_amt_last_month`) were derived to capture the customer's most recent behavior.
 * **Trend Features:** Features like `cc_spend_trend_ratio` (last month's spend / average spend) were created to capture changes in customer spending habits.
 
 ### 3. Pre-processing and Pipeline
@@ -56,6 +56,7 @@ Success was measured by a custom score, which was a weighted sum of three metric
 * **Lift@10%:** 30%
 
 **Baseline Model Metrics:**
+
 * **Gini:** 0.38515
 * **Recall@10%:** 0.18469
 * **Lift@10%:** 1.84715
