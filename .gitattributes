@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Treat Jupyter notebooks as Python for language detection and ensure text normalization
+*.ipynb text=auto
+*.ipynb linguist-language=Python
